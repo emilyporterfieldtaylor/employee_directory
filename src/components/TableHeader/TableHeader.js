@@ -2,8 +2,7 @@ import React from 'react';
 
 function TableHeader() {
   return (
-    <div className="container">
-    <table className="table table-striped table-dark">
+    
   <thead>
     <tr>
       <th scope="col">Image</th>
@@ -13,8 +12,7 @@ function TableHeader() {
       <th scope="col">Email</th>
     </tr>
   </thead>
-  </table>
-  </div>
+
   )
 }
 
