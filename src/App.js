@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from "./components/Header"
+import Header from "./components/Header/Header";
+import TableHeader from "./components/TableHeader/TableHeader";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
+        <TableHeader />
         <a
           className="App-link"
           href="https://reactjs.org"
