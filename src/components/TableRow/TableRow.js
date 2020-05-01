@@ -1,15 +1,14 @@
 import React from 'react';
 
-function TableRow () {
+function TableRow(props) {
   return (
-    <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-  </tbody>
+        <td><img src={props.employee.picture.thumbnail} /></td>
+        <td>{props.employee.name.first}</td>
+        <td>{props.employee.name.last}</td>
+        <td>{props.employee.phone}</td>
+        <td>{props.employee.email}</td>
+      </tr>
   );
 }
 
