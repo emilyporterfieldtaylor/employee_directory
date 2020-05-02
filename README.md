@@ -1,6 +1,6 @@
 # employee_directory
 
-https://big-austin.herokuapp.com/
+https://bigaustin.herokuapp.com/
 
 ## Description  
 Big Austin is a big company in the heart of Austin. On this website are the lovely employee that work here at Big Austin. Please peruse them by clicking on either first name or last name to sort. You can also use the search bar to find any employee by search for their name. 
